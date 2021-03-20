@@ -68,7 +68,8 @@ looks like this:
 
 ```ruby
 # config/routes.rb
-resources :posts, only: [:index, :show]
+rails console
+
 ```
 
 This will create routing methods for posts that we can utilize in our views and
